@@ -1,0 +1,102 @@
+.ui.table{
+  width: 50%;
+}
+tbody > tr{
+  opacity: 0;
+  background-color: green;
+  height: 0%;
+}
+tr > td:nth-child(3){
+  position: relative;
+}
+.highlight-row{
+  animation: highlightRow .8s ease-in  alternate infinite;
+}
+@keyframes  highlightRow{
+  0%
+  {
+
+    background-color: white;
+  }
+  100%
+  {
+    opacity: 1;
+    background-color: #ea5454;
+  }
+}
+
+.delete{
+  position: absolute;
+  right: 0em;
+  color: red;
+  font-size: 2em;
+}
+.delete-confirmation-msg{
+  text-align: center;
+  width: 100%;
+  font-size: 1em;
+  padding: 3px;
+  background-color: gray;
+}
+#addMsg{
+  width: 100%;
+  position: relative;
+  top:0;
+  bottom: 0;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+}
+.add-msg{
+  width: 100%;
+  display: block;
+
+}
+.hide-msg{
+  display: none;
+}
+.book-to-delete{
+  padding: 2px ;
+  color: #000;
+  background-color: rgba(255,255,255,.5);
+}
+input.validate-delete-book{
+  padding: 4px;
+  border:none;
+  color:green;
+  background-color: lightgray;
+}
+input.cancel-delete-book{
+  padding: 4px;
+  border:none;
+  color:red;
+  background-color: lightgray;
+}
+.error,.success {
+  width: 100%;
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+  font-size: 1em;
+  color: #fff;
+  transition: all 1s ease-in-out;
+}
+.error{
+  background-color: red;
+}
+.success{
+
+  background-color: green;
+
+}
+.fade-out{
+  opacity: 0;
+  height: 0px;
+  background-color: red;
+  transition : all .6s  ease-in-out;
+}
+.fade-in{
+  opacity: 1;
+  height: 100%;
+  background-color: white;
+  transition : all .6s  ease-in-out;
+}

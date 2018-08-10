@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../../globcss/semantic.css">
+  <link rel="stylesheet" href="main.css">
+  <title>BookList</title>
+</head>
+<body>
+  <div class="ui container" style="margin-top:3em">
+    <div class="ui grid">
+
+      <div class="sixteen wide column">
+        <h1 class="ui huge header">Booklist</h1>
+
+      </div>
+      <div id="addMsg" class="">
+
+      </div>
+      <form class="ui  form" id="addBookForm"  >
+        <div class="field">
+          <div class="ui labeled input">
+            <label for="booktitle" class="ui  red label">Book Title</label>
+            <input type="text" class="ui huge input" id="booktitle">
+          </div>
+        </div>
+        <div class="field">
+          <div class="ui labeled input">
+            <label for="author" class="ui  blue label">author</label>
+            <input type="text" class="ui huge input" id="author">
+          </div>
+        </div>
+        <div class="field">
+          <div class="ui labeled input">
+            <label for="year" class="ui  label">Year</label>
+            <input type="number" class="ui huge input" id="year">
+          </div>
+        </div>
+        <button type="submit" class="ui massive green  button" name="submit">Submit</button>
+      </form>
+
+      <table class="ui massive celled table">
+        <thead>
+          <tr>
+            <th >Book Title</th>
+            <th >Author</th>
+            <th >Year</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+
+      </table>
+
+
+    </div>
+  </div>
+  <script src="../../globjs/jquery.min.js" charset="utf-8"></script>
+<script src="../../globjs/semantic.min.js" charset="utf-8"></script>
+<script src="appes6.js" charset="utf-8"></script>
+</body>
+</html>

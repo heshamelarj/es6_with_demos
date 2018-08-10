@@ -1,0 +1,11 @@
+tr{
+  width: 100%;
+}
+tr:not(tr.no-fade){
+  opacity: 0;
+  width: 100%;
+}
+.fade-in{
+opacity: 1;
+transition: all .4s ease-in-out;
+}

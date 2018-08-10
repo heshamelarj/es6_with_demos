@@ -1,0 +1,13 @@
+Atlas Shrugged,AYN RAND,1954;
+The Fountainhead,AYN RAND,1933;
+Give and Take A Revolutionary Approach to Success,Adam M Grant PhD,Viking Adult,2013;
+Elon Musk Tesla SpaceX and the Quest for a Fantastic Future-Ecco,Ashlee Vance,2015;
+Deep Work Rules for focused success,Cal_Newport;
+Mindset  How You Can Fulfill Your Potential,Carol S Dweck,Robinson Publishing,2012;
+Thinking: Fast and Slow,Daniel Kahneman;
+The Road to Character,David Brooks,Random House,2015;
+The power of habit: why we do what we do in life and business,Duhigg & Charles,Random House Digital Inc,2012;
+How to Make Good Decisions,Gerd Gigerenzer & Risk Savvy,Viking Adult,2014;
+How Will You Measure Your Life,Harper Business,2012;
+How To Win Friends And Influence People ,Dale Carnegie,Pinguan Publishing,2012;
+How Not To Give A Fuck,Robert Js,2015;

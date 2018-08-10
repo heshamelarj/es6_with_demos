@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+table{
+  margin-top: .9em;
+}
+/*styling table*/
+table thead tr {
+  border-bottom:2px solid #25C2AD;
+}
+.edit-book{
+  margin-right: 1em
+}
+.edit-book i:hover{
+  color:green!important;
+}
+.delete-book i:hover{
+  color:rgb(151, 2, 2)!important;
+}
+.error{
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  text-align: center;
+  font-size: 4em;
+  transition: all 3s ease-in-out;
+}

@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+#displayBook{
+  background-color: #834c4c;
+  position: sticky;
+  top: 1em;
+}
+tr:nth-child(even){
+  background-color: #cfcfcf;
+}

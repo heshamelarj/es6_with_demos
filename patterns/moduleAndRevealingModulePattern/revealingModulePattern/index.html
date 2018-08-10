@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Revealing Module Pattern</title>
+</head>
+<body>
+  <h1>
+    Revealing Module Pattern 
+  </h1>
+  <p>
+    <h5> - is the same as the Module Pattern except it reveals the module vars and objects </h5>
+  </p>
+  <code>
+    const ItemCtrl = (function(){ <br>
+      let _data = []; <br>
+      function _add(item){ <br>
+        _data.push(item); <br>
+        console.log(`${item} added ...`); <br>
+        <br>
+      } <br>
+      function _delete(item){ <br>
+        _data.splice(_data.indexOf(item),1); <br>
+        console.log(`${item} deleted`); <br>
+        <br>
+      } <br>
+      //public part or revealing part <br>
+      return { <br>
+        add : _add, <br>
+        deleted : _delete <br>
+      } <br>
+    })() <br>
+  </code>
+  <script src="main.js"></script>
+</body>
+</html>

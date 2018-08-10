@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MODULE PATTERN</title>
+</head>
+<body>
+  <h2>MODULE PATTERN</h2>
+  <p>
+    <h4>Module pattern is a pattern where you can't access vars and funcs from the body if the IIFE but you can access 'em from teh return </h4>
+  </p>
+  <strong>EXAMPLE</strong>
+  <code style="position:relative;margin:0 auto;margin-left:0;margin-right:0;text-align:left;background-color: rgb(97, 88, 88)">
+    <div>
+
+      const UICtrl = (function(intxt){ <br> <br>
+        //thsi section is private <br> <br>
+        const addH1 = function(){ <br> <br>
+          const h1 = document.createElement('h1'); <br> <br>
+          h1.innerText = intxt; <br> <br>
+          document.body.appendChild(h1); <br> <br>
+        }
+        //thsi section is public  <br> <br>
+        return { <br> <br>
+           callAddH1 : function(){ <br> <br>
+            addH1(intxt); <br> <br>
+          } <br> <br>
+        } <br> <br>
+      })("Hello Module"); <br> <br>
+      
+      
+      UICtrl.callAddH1(); <br> <br>
+
+    </div>
+  </code>
+  <script src="main.js"></script>
+</body>
+</html>

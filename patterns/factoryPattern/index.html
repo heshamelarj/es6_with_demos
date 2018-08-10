@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FACTORY PATTERN</title>
+</head>
+<body>
+  <h1>FACTORY PATTERN</h1>
+  <p>
+    <h5>- Factory Pattern is used when we have multiple objects share some same attributs or methods</h5>
+  </p>
+
+  <code>
+      function  MemberFactory(){ <br>
+
+        this.createMember = function(name,type){ <br>
+          let memeber; <br>
+          switch (type)  <br>
+          { <br>
+            case "simple" : <br>
+            memeber = new SimpleMembership(name); <br>
+            case "standard" : <br>
+            memeber =  new StandardMembership(name); <br>
+            case "supper" : <br>
+            memeber =  new SupperMembership(name);  <br>
+          } <br>
+          memeber.type = type; <br>
+          memeber.define = function(){ <br>
+            console.log(`${this.name} (${this.type}) ${this.cost}`); <br>
+      
+             <br>
+          } <br>
+          return memeber; <br>
+        } <br>
+      } <br>
+  </code>
+  <strong>Log To Console ==></strong>
+  <script src="main.js"></script>
+</body>
+</html>

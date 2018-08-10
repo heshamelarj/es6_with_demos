@@ -1,0 +1,11 @@
+{
+  "name": "booklist",
+  "version": "1.0.0",
+  "description": "add books to firebase bd do CRUD to data",
+  "main": "index.html",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "hesham@elarj",
+  "license": "ISC"
+}

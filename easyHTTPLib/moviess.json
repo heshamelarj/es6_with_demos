@@ -1,0 +1,20 @@
+[
+  {
+    "id":"1",
+    "title":"Good Will Hunting",
+    "genre":"comedy-drama",
+    "releaseYear":"1995"
+  },
+  {
+    "id":"2",
+    "title":"The Pursuit Of Happines",
+    "genre":"rama",
+    "releaseYear":"2006"
+  },
+  {
+    "id":"2",
+    "title":"Dangerous Minds",
+    "genre":"drama",
+    "releaseYear":"1994"
+  }
+]

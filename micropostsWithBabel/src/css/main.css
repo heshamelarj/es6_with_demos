@@ -1,0 +1,11 @@
+#posts{
+  height: 60vh;
+}
+#posts > div {
+  height: 20vh;
+  width: 50%;
+  padding: 2em;
+}
+#posts > div > div {
+  margin-bottom: 3em;
+}

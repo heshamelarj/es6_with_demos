@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Singleton Pattern</title>
+</head>
+<body>
+  <h1>Singleton Pattern</h1>
+  <p>
+
+    <h5>- Singleton pattern gives you control over creating instances</h5>
+    
+  </p>
+  <code>
+    const Singleton = (() =>{ <br>
+      let instance; <br>
+      function createInstance(){ <br>
+        const object = new Object(); <br>
+        return object; <br>
+      } <br>
+      return { <br>
+        getInstance : function(){ <br>
+          if(!instance){ <br>
+            instance = createInstance(); <br>
+          } <br>
+          return instance; <br>
+        } <br>
+      } <br>
+    })() <br>
+  </code>
+  <strong>Log To Console ==></strong>
+  <script src="main.js"></script>
+</body>
+</html>
